@@ -1,0 +1,40 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("https://i.stack.imgur.com/spmUM.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .login-main-container{
+        text-align: center;
+        // border: 2px solid red;
+        width: 500px;
+        height: 350px;
+        background: transparentize($color: #e6f0f0, $amount: 1);
+        // background-color:;
+    }
+    Button,
+    #outlined-basic{
+        color: black;
+        border: 2px solid black;
+    }
+    Button:focus{
+        color: black;
+        border: 2px solid black;
+        border-color: black;
+    }
+
+    // #outlined-basic:active:focus{
+    //     // color: black;
+    //     // outline: 2px solid black;
+    // }
+
+
+    Button:hover{
+        color: black;
+        border: 2px solid black;
+    }
+}

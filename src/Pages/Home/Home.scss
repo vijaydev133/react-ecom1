@@ -1,0 +1,11 @@
+.prod-cont{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px 0;
+
+    .prod-item{
+        margin: 10px;
+        min-height: 300px;
+    }
+}

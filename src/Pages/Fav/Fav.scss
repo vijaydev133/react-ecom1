@@ -1,0 +1,12 @@
+.fav-cont{
+    display: flex;
+    flex-wrap: wrap;
+    
+    text-align: center;
+    margin: 50px 0;
+
+    .fav-item{
+        margin: 10px;
+        min-height: 300px;
+    }
+}
