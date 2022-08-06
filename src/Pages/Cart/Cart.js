@@ -28,9 +28,9 @@ const Cart = () => {
   }
 
   let item = Products.map((product) => {
-    
+        
     return state.cart.cartArr.map((cart) => {
-      console.log("cart", cart);
+     
       if (product.id == cart) {
         return (
           <div key={product.id} className="cart-items">
@@ -65,9 +65,9 @@ const Cart = () => {
     });
   });
   return (
-    <div>
+    <div className="main-cart">
       <Nav />
-      Cart
+       <h1>Cart</h1>
       <div className="cart-cont">{item}</div>
     </div>
   );

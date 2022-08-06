@@ -27,10 +27,12 @@
         border-color: black;
     }
 
-    // #outlined-basic:active:focus{
-    //     // color: black;
-    //     // outline: 2px solid black;
-    // }
+    #outlined-basic:focus{
+        // color: black;
+        // outline: 2px solid black;
+        // border: none;
+        // background: transparent;
+    }
 
 
     Button:hover{

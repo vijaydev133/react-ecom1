@@ -15,10 +15,10 @@ const Home = () => {
  )
  })
   return (
-    <div>
-        <ResponsiveAppBar/>
+    <div className='main-home'>
+        {/* <ResponsiveAppBar/> */}
         <Nav/>
-        Home
+         <h1>Home</h1>
         <div className="prod-cont">
           {item}
         </div>
